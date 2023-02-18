@@ -202,10 +202,12 @@ th{
     font-family: 'Inter', sans-serif;
     background-color: black;
     color: whitesmoke;
+    margin-left: 100px;
     }
     header{
-      width: 79%;
-      margin: 0;
+      width: 94%;
+      margin: auto;
+      margin-left: -40px;
     }
     h1{
       width: 80%;
@@ -216,7 +218,9 @@ th{
       display: grid;
       grid-template-columns: 1fr;
       margin:auto;
+      width: 100%;
       margin-left: 270px;
+      margin-right: 0;
     }
     .child-flex{
       max-width: 100%;
